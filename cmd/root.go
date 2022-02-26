@@ -24,7 +24,7 @@ A tool that:
 - imports this data or any PGN file into a local MongoDB database
 - allows to browse the game openings via a web browser
 
-https://github.com/yafred/chess-explorer`,
+https://github.com/flutterbar/chess-explorer-go`,
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.

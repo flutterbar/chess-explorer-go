@@ -19,12 +19,12 @@
   * Or create a MongoDB cluster online (there are some free plans, for example: [MongoDB Atlas](https://docs.atlas.mongodb.com/tutorial/deploy-free-tier-cluster/))
 
 ## Alternative 1: using executable
-  * Download the executable for your platform from the [releases page](https://github.com/yafred/chess-explorer-go/releases)
+  * Download the executable for your platform from the [releases page](https://github.com/flutterbar/chess-explorer-go-go/releases)
   * Follow instructions below replacing `{command}` with `chess-explorer-{os}-{arch}`
 
 ## Alternative 2: using source code
   * Install [Golang](https://golang.org/doc/install) 
-  * `git clone https://github.com/yafred/chess-explorer.git`
+  * `git clone https://github.com/flutterbar/chess-explorer-go.git`
   * Open a cmd console and go to the root of the source code directory (where you can see LICENSE, README.md, main.go)
   * Follow instructions below replacing `{command}` with `go run main.go`
 
@@ -48,3 +48,9 @@
     * `{command} delete chess.com:{username}` 
     * `{command} pgntodb {path to your PGN file} --username {username}` 
 
+go mod vendor
+go build
+chess-explorer-go lichess MindPrison
+
+chess-explorer-go server
+http://localhost:52825

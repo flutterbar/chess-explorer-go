@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/flutterbar/chess-explorer-go/internal/pgntodb"
 	"github.com/spf13/viper"
-	"github.com/yafred/chess-explorer/internal/pgntodb"
 )
 
 // DownloadGames ... Downloads games from lichess.org for user {user}

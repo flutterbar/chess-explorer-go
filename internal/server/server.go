@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/flutterbar/chess-explorer-go/internal/embed"
 	"github.com/spf13/viper"
-	"github.com/yafred/chess-explorer/internal/embed"
 )
 
 // Start ... start a web server

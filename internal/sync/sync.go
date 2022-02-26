@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
+	"github.com/flutterbar/chess-explorer-go/internal/chesscom"
+	"github.com/flutterbar/chess-explorer-go/internal/lichess"
 	"github.com/spf13/viper"
-	"github.com/yafred/chess-explorer/internal/chesscom"
-	"github.com/yafred/chess-explorer/internal/lichess"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

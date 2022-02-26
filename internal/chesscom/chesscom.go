@@ -9,7 +9,7 @@ import (
 	http "net/http"
 	"os"
 
-	"github.com/yafred/chess-explorer/internal/pgntodb"
+	"github.com/flutterbar/chess-explorer-go/internal/pgntodb"
 )
 
 /*

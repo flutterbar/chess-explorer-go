@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	"github.com/flutterbar/chess-explorer-go/internal/sync"
 	"github.com/spf13/cobra"
-	"github.com/yafred/chess-explorer/internal/sync"
 )
 
 var syncCmd = &cobra.Command{

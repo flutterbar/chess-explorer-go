@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/flutterbar/chess-explorer-go/internal/pgntodb"
 	"github.com/spf13/viper"
-	"github.com/yafred/chess-explorer/internal/pgntodb"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

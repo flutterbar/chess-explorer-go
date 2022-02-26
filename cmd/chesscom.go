@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	chesscom "github.com/flutterbar/chess-explorer-go/internal/chesscom"
 	"github.com/spf13/cobra"
-	chesscom "github.com/yafred/chess-explorer/internal/chesscom"
 )
 
 var chesscomPgn string

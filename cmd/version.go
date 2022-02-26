@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	"github.com/flutterbar/chess-explorer-go/internal/version"
 	"github.com/spf13/cobra"
-	"github.com/yafred/chess-explorer/internal/version"
 )
 
 var versionCmd = &cobra.Command{

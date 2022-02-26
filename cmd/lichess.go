@@ -1,9 +1,9 @@
 package cmd
 
 import (
+	"github.com/flutterbar/chess-explorer-go/internal/lichess"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/yafred/chess-explorer/internal/lichess"
 )
 
 var userToken string

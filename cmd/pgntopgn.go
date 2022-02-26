@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	"github.com/flutterbar/chess-explorer-go/internal/pgntopgn"
 	"github.com/spf13/cobra"
-	"github.com/yafred/chess-explorer/internal/pgntopgn"
 )
 
 var pgnToPgnCmd = &cobra.Command{

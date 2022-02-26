@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	pgntodb "github.com/flutterbar/chess-explorer-go/internal/pgntodb"
 	"github.com/spf13/cobra"
-	pgntodb "github.com/yafred/chess-explorer/internal/pgntodb"
 )
 
 var username string

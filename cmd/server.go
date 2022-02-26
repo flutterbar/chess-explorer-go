@@ -1,9 +1,9 @@
 package cmd
 
 import (
+	server "github.com/flutterbar/chess-explorer-go/internal/server"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	server "github.com/yafred/chess-explorer/internal/server"
 )
 
 var serverPort int
