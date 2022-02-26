@@ -52,5 +52,6 @@ go mod vendor
 go build
 chess-explorer-go lichess MindPrison
 
+
 chess-explorer-go server
 http://localhost:52825
